@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom overrides */
+html {
+    -webkit-text-size-adjust: 100%; /* Override with a supported value */
+  }
+  
+  /* If you need to override a column gap setting on a particular element or globally */
+  .custom-column-gap {
+    column-gap: 1rem; /* use your desired value */
+  }
